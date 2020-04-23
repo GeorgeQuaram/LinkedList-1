@@ -25,7 +25,7 @@ public class List {
     }
 
     // Outputting data from the list
-    public void wirteList() {
+    public void writeList() {
         Node le = startElem;
         while (le != null) {
             System.out.println(le.getString());
